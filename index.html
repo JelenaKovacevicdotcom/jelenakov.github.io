@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rødlisteart</title>
+    <link href="stiler/dyrestil.css" rel="stylesheet" />
+    <link href="stiler/ekstrastil.css" rel="stylesheet" />
+    <script src="script/skift_bilde_knapp.js" defer></script>
+    <!--Tar dyreprogram copy, som bytter bilde ved trykk på knappen-->
+    <!--DEFER for utsatt kjøring av scriptet -->
+    <script async src="script/main.js"></script>
+    <!--her endret vi opprinelige h1 fra "Apollosommerfugl"-->
+    <!--til forskjell fra ASYNC, som kjører scripet så snart det er ferdig, uten å vente på resten av HTML eller andre scripts.-->
+    <!--derfor kan ASYNC gi uforutsigbar rekkefølge,
+     mens DEFER kjører i den rekkefølgen de står etter at HTML er ferdig-->
+    <script async src="script/om_knapp.js"></script>
+  </head>
+  <body>
+    <button id="om">Om nettstedet</button>
+    <!--ØVING 2 OPPGAVE 9-->
+    <h1>Apollosommerfugl</h1>
+    <img src="bilder/Parnassius_apollo.jpg" alt="Apollosommerfugl" />
+    <button id="bilde">Bytt bilde</button>
+    <!--Å BYTTE BILDE VED KLIKK PÅ EN KNAPP-->
+
+    <p><strong>Opplysninger</strong></p>
+    <ul>
+      <li>Latinsk navn: Parnassius apollo</li>
+      <li>Utbredelse: Asia, Europa. I Norge, i fjellet</li>
+      <li>Habitat: steinete gressmarker, rasmarker, klipper, veikanter</li>
+    </ul>
+    <h2>Levevis</h2>
+    <p>
+      Apollosommerfugl finnes på gresskledde, steinete enger og bergknauser.
+      Arten foretrekker lokaliteter, som er soleksponerte, gjerne i bratte
+      rasmarker, skråninger og lignende.
+    </p>
+    <p>Flygetiden er fra juni til august.</p>
+
+    <p>
+      Paringen skjer ved sammenkobling mellom de to kjønnene. Larven klekker om
+      høsten, men overvintrer i egget.
+    </p>
+    <p>
+      <a href="https://no.wikipedia.org/wiki/Larve">Larven</a> er radikalt
+      forskjellige fra de voksne, både i levevis og i kroppsbygning. Den er
+      svart med røde runde flekker bakover kroppen. lever som plantespiser på
+      ulike urter, men helst på forskjellige arter innen bergknappfamilien
+      (Crassulaceae). Den velger oftest smørbukk (Sedum telephium) eller andre
+      tykkbladarter som hvitbergknapp (Sedum album) og rosenrot (Rhodiola
+      rosea).
+    </p>
+
+    <p>
+      Apollosommerfugl tilhører gruppen av
+      <a href="https://no.wikipedia.org/wiki/Insekter">insekter</a> med
+      fullstendig forvandling (holometabole insekter), som gjennomgår en
+      <a href="https://no.wikipedia.org/wiki/Metamorfose_(biologi)"
+        >metamorfose</a
+      >
+      i løpet av utviklingen. Mellom larvestadiet og det voksne stadiet er et
+      puppestadium, en hvileperiode, der sommerfuglens indre og ytre organer
+      endres. Larvens bøyelige og myke kropp omdannes til en puppe med hardt
+      skall. Når skallet er hardt, begynner omdanningen fra larve til den voksne
+      (imago) sommerfuglen. De indre organer brytes i varierende grad ned til en
+      cellemasse. En omorganisering skjer og dyret bygges opp igjen.
+    </p>
+    <p>
+      <a href="https://no.wikipedia.org/wiki/Puppe">Puppene</a> er bønneformet,
+      blek grå, de ligner plantedeler som frø og lignende. Puppeperioden
+      varierer etter temperaturen.
+    </p>
+  </body>
+</html>
